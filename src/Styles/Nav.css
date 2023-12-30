@@ -1,4 +1,13 @@
-/* Nav.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100;300&display=swap');
+
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 .nav-bar {
   background-color: whitesmoke;
@@ -6,7 +15,9 @@
   display: flex;
   justify-content: space-between;
   gap: 7%;
+  align-items: center;
 }
+
 .nav-ul {
   list-style: none;
   margin: 0;
@@ -14,12 +25,13 @@
   display: flex;
 }
 
+
 .nav-li {
-  margin-right: 5px;
+  padding-right: 80px; /* Adjust the padding to create space between items */
 }
 
 .nav-li:last-child {
-  margin-right: 0; /* Remove margin for the last list item (Book Now) */
+  padding-right: 0; /* Remove right padding for the last item */
 }
 
 .nav-li a {
@@ -30,7 +42,7 @@
 }
 
 .nav-li a:hover {
-  color: yellow; /* Change the color on hover as an example */
+  color: rgb(20, 200, 212); /* Change the color on hover as an example */
 }
 
 nav button {
@@ -44,8 +56,17 @@ nav button {
   border-radius: 10px 10px;
 }
 
+nav button a:hover {
+  color: rgb(20, 200, 212); 
+  
+}
 
 a {
   list-style: none;
   text-decoration: none;
+}
+
+.active-link {
+  color: #8b5d2e; 
+  font-weight: bold;
 }

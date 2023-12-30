@@ -4,6 +4,31 @@
   background-repeat: no-repeat;
   width: 100%;
   background-position: 'center';
-  padding:'100px 20px';
   height: 100vh;
+  height: 100vh; /* Adjust the height as needed */
+  padding: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+
+.card {
+  display: flexbox;
+  justify-content: left;
+  text-align: left;
+  max-width: 600px; 
+}
+
+h1 {
+  font-size: 39px;/* Adjust the font size as needed */
+  color: #ffff;
+  font-weight: 600;
+}
+
+p {
+  color: #ffff;
+  font-size: 1.2em; /* Adjust the font size as needed */
+  margin-top: 10px; /* Add margin for spacing between h1 and p */
 }
