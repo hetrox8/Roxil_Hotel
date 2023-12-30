@@ -1,0 +1,51 @@
+/* Nav.css */
+
+.nav-bar {
+  background-color: whitesmoke;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+  gap: 7%;
+}
+.nav-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-li {
+  margin-right: 5px;
+}
+
+.nav-li:last-child {
+  margin-right: 0; /* Remove margin for the last list item (Book Now) */
+}
+
+.nav-li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.nav-li a:hover {
+  color: yellow; /* Change the color on hover as an example */
+}
+
+nav button {
+  background-color: #f1e1c8;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px 10px;
+}
+
+
+a {
+  list-style: none;
+  text-decoration: none;
+}

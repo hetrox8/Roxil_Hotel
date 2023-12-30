@@ -1,0 +1,9 @@
+.container-1 {
+  background-image: url('../Assets/Home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: 'center';
+  padding:'100px 20px';
+ 
+}
