@@ -22,13 +22,13 @@
 }
 
 h1 {
-  font-size: 39px;/* Adjust the font size as needed */
+  font-size: 57px;/* Adjust the font size as needed */
   color: #ffff;
   font-weight: 600;
 }
 
 p {
   color: #ffff;
-  font-size: 1.2em; /* Adjust the font size as needed */
+  font-size: 24px; /* Adjust the font size as needed */
   margin-top: 10px; /* Add margin for spacing between h1 and p */
 }
