@@ -17,17 +17,17 @@ const Nav = () => {
           </NavLink>
         </li>
         <li className='nav-li'>
-          <NavLink to="/about_us" activeClassName="active-link">
+          <NavLink to="/About" activeClassName="active-link">
             About Us
           </NavLink>
         </li>
         <li className='nav-li'>
-          <NavLink to="/contact_us" activeClassName="active-link">
+          <NavLink to="/Contact" activeClassName="active-link">
             Contact Us
           </NavLink>
         </li>
         <li className='nav-li'>
-          <NavLink to="/restaurant" activeClassName="active-link">
+          <NavLink to="/Restaurant" activeClassName="active-link">
             Restaurant
           </NavLink>
         </li>
