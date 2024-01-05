@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-background {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* home-page choices bar styles */
+
+.home-page-room-book-bar {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+form.book-hotel-form {
+  display: flex;
+  width: 100%;
+  background: rgba(255, 255,255, 0.2);
+  border-radius: 6px;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.calendar-field-div-outer {
+  background: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+}
+
+.calendar-input-inner {
+  background: url('./calendar-outline.svg') no-repeat right;
+  background-size: 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 10rem;
+  height: 46px;
+}
+
+.calendar-input-inner::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+
+select.select-room-type-field {
+  height: 100%;
+  border-radius: 8px;
+  min-width: 10.4rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button.book-hotel-form-submit {
+  background: #e0b565;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  min-width: 9rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+/* home-page choices bar styles */
